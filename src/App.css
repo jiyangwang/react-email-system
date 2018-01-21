@@ -1,0 +1,30 @@
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(191, 190, 191);
+}
+
+.nav-bar li {
+  float: left;
+  width: 50%;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.nav-bar li:last-child {
+  border-right: none;
+}
+
+.nav-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: rgb(120, 120, 220);
+}
